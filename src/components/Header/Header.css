@@ -1,0 +1,61 @@
+.app-header {
+    background: linear-gradient(5deg, #cb1c22 67.61%, #d9503f 95.18%);
+    padding: 5px 10px;
+}
+
+.wrapper-input-header {
+    position: relative;
+}
+
+.wrapper-input-header .input-content input {
+    padding: 8px 10px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+
+.wrapper-input-header .input-content input:focus{
+    outline: none;
+    color: #cb1c22;
+}
+
+
+.wrapper-input-header button {
+    padding: 8px 5px;
+    padding-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: #cb1c22;
+}
+
+.wrapper-socail-header button {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.profile {
+    color: #fff;
+    background-color: #7d161c;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.cart {
+    background-color: #090d14;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.cart i {
+    margin-right: 10px;
+}
+
+.cart:hover {
+    background-color: #2d2f32;
+}
